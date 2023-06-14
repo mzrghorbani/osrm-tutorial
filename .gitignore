@@ -1,0 +1,12 @@
+# Ignore all files and directories
+*
+
+# Keep specific files
+!CMakeLists.txt
+!README.md
+!.gitignore
+!locations.csv
+!more-locations.csv
+!osrm-request.sh
+!osrm-tutorial.ipynb
+
