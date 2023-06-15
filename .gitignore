@@ -1,6 +1,5 @@
 # Ignore all files and directories
 *
-**
 
 # Keep specific files
 !CMakeLists.txt
@@ -10,4 +9,4 @@
 !more-locations.csv
 !osrm-request.sh
 !osrm-tutorial.ipynb
-!images/
+!images/*.jpg
