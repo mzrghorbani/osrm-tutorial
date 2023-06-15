@@ -1,5 +1,4 @@
-cmake_minimum_required(VERSION 3.0)
-
+cmake_minimum_required(VERSION 3.18)
 project(check_installations)
 
 message("Checking OSRM required installations on your system")
