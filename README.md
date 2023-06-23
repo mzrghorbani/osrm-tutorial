@@ -22,20 +22,25 @@ Even though OSRM installation no longer depends on sudoer, the Ubuntu system sti
 
 There are two methods of installation available:
 
-	by following the instructions in `osrm-tutorial.ipynb`
+	by following the instructions in 'osrm-tutorial.ipynb'
 
 ,or
 
-	executing the `sudo ./install.sh` command in osrm-tutorial repository.
+	executing the 'sudo ./install.sh' command in osrm-tutorial repository.
 
 
-During the execution of bash automation script, if the software installation failed for any reason, please execute the commands in the install.sh script or osrm-tutorial.ipynb manually.
+lease, see the printouts while the installation is in progress for further instructions.
 
-All commands in the bash script are available in the notebook with descriptions.
+During the execution of bash automation script, if the software installation failed for any reason (e.g., invalid url), please execute the commands present the install.sh script or osrm-tutorial.ipynb manually.
 
-It is practical to open two terminals. One for opening the Jupyter Notebook and one for running bash installation commands.
+All commands in the bash script are also available in the notebook with descriptions.
+
+
+# Good paractice: 
+
+It is practical to open two terminals. One for running the Jupyter Notebook, and one for running the bash installation script or commands.
 
 
 # Required files
 
-This repository contains all the required files used in the tutorial.
+The osrm-tutorial repository contains all the required files and scripts used in the tutorial.
