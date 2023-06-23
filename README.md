@@ -13,7 +13,7 @@ The instructions provided in the OSRM tutorial are thoughtfully designed to foll
 
 # Clone OSRM Tutorial Repo
 
-$ git clone https://github.com/mzrghorbani/osrm-tutorial.git
+git clone https://github.com/mzrghorbani/osrm-tutorial.git
 
 
 # Instructions
