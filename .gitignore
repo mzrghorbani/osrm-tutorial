@@ -7,6 +7,10 @@
 !.gitignore
 !locations.csv
 !more-locations.csv
+!ethiopia-locations.csv
 !osrm-request.sh
+!install-deps.sh
+!install-osrm.sh
 !osrm-tutorial.ipynb
+!osrm-expert.ipynb
 !images/*.jpg
