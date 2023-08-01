@@ -73,8 +73,15 @@ if [[ "$(basename "$(pwd)")" == "osrm-tutorial" ]]; then
         make install
     fi
 
-    echo "Adding OSRM executables path to system path..."
-    export PATH=${PATH}:$(realpath ../../osrm-install/bin)
+    # Define the OSRM executables path
+    OSRM_EXEC_PATH=$(realpath ../osrm-install/bin)
+
+    # Check if the OSRM executables path is already in the system path
+    if ! wslpath -a "$PATH" | tr ':' '\n' | grep -Fxq "$(wslpath -a "$OSRM_EXEC_PATH")" >/dev/null; then
+        # Add the OSRM executables path to the system path
+        echo "Adding OSRM executables path to system path..."
+        export PATH=${PATH}:$OSRM_EXEC_PATH
+    fi
 
     echo "Returning to osrm-backend directory..."
     cd .. && \

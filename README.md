@@ -37,6 +37,12 @@ There are two methods of installing the required packages:
 
 		sudo ./install-deps.sh
 
+	If you encounter issues when running this command such as "install-deps.sh: line 2: $'\r': command not found", "install-deps.sh: line 46: syntax error: unexpected end of file", or "sudo: unable to execute ./install-deps.sh: No such file or directory"
+
+	Please run the command below and repeat the execution.
+
+		dos2unix install-deps.sh
+
 Then, install OSRM software and setup the OSRM engine by:
 
 	1. Following the instructions in 'osrm-tutorial.ipynb', or
@@ -44,6 +50,16 @@ Then, install OSRM software and setup the OSRM engine by:
 	2. Executing automated script `install-osrm.sh`:
 
 		./install-osrm.sh
+
+	If you encounter issue like "-bash: ./install-osrm.sh: /bin/bash^M: bad interpreter: No such file or directory", please run dos2unix command on the file and repeat the installation process.
+
+If OSRM executables are not added to your system path, please run the command below in osrm-tutorial/ directory:
+
+		export PATH=${PATH}:$(realpath ./osrm-install/bin)
+
+You can check if the executable path is successfully added by entering "osrm-" and DOUBLE-TAB. This should return all executables:
+
+	osrm-components	osrm-contract	osrm-customize	osrm-datastore	osrm-extract	osrm-partition	osrm-routed
 
 Please, see the printouts while the installation is in progress for further instructions.
 
@@ -96,7 +112,28 @@ You can check if the engine is running by executing the command below:
 
 Executing the command will return a process ID if the engine is running.
 
-For experimenting with `osrm-expert.ipynb`, please make sure, the OSRM engine is running with the Ethiopia map. 
+If you like to see which map OSRM is running with, please execute the command below:
+
+		ps -aux | grep "osrm-routed"
+
+If you like to download and run OSRM with different file and region, please execute the script `download-run.sh` with arguments:
+
+		./download-run.sh REGION FILENAME
+		e.g., ./download-run.sh africa ethiopia-latest
+
+The REGION argument is for one of the region's names from http://download.geofabrik.de/ 
+
+Please click on the desired region on this page to locate the map FILENAME.osm.pbf file(e.g., ethiopia-latest)
+
+The script is automated to download and run OSRM and set-up OSRM engine on the FILENAME.
+
+If the OSRM executables are not added to your system path, please run the command below in osrm-tutorial/ directory:
+
+		export PATH=${PATH}:$(realpath ./osrm-install/bin)
+		
+Or permanently add the path to your .bashrc file by adding the line below:
+
+		export PATH=/home/$whoami/<path to>/osrm-tutorial/osrm-install/bin:$PATH
 
 We have populated `ethiopia-locations.csv` with four town coordinates. Please add more as desired. 
   
