@@ -11,6 +11,7 @@
 !osrm-request.sh
 !install-deps.sh
 !install-osrm.sh
+!download-run.sh
 !osrm-tutorial.ipynb
 !osrm-expert.ipynb
 !images/*.jpg
