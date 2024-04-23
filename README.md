@@ -1,3 +1,23 @@
+# Using Public OSRM and Overpass API Services
+
+If you have not set up OSRM and Overpass API servers locally yet, you can use the public services provided by these platforms. To do this, you need to replace the local server URLs in the code with the public HTTP addresses provided below:
+
+## OSRM Public Server: 
+
+Replace the local OSRM server URL in your code with http://router.project-osrm.org/. For example, change the osrm_url in the request_osrm_route function to:
+
+osrm_url = f"http://router.project-osrm.org/route/v1/driving/{source_coords[0]},{source_coords[1]};{dest_coords[0]},{dest_coords[1]}?geometries=geojson&overview=full"
+
+## Overpass API Public Server: 
+
+Replace the local Overpass API server URL with http://overpass-api.de/api/. Ensure that your queries are correctly formatted for the public Overpass API endpoint. Modify the endpoint in the run_overpass_query function as needed:
+
+command = ["http://overpass-api.de/api/interpreter", "--db-dir=" + db_dir]
+
+Please remember that using public servers may come with limitations on the rate of requests and data size, which could impact the performance and feasibility of your tasks. Always check the terms of use and consider setting up local instances for extensive or frequent querying needs.
+
+In this tutorial, we will install and configure OSRM Engine for route constructions.
+
 # OSRM repository is divided into two sections:
 
 	1. OSRM Advanced Tutorial:
@@ -136,4 +156,62 @@ Or permanently add the path to your .bashrc file by adding the line below:
 		export PATH=/home/$whoami/<path to>/osrm-tutorial/osrm-install/bin:$PATH
 
 We have populated `ethiopia-locations.csv` with four town coordinates. Please add more as desired. 
+
+## Setting Up Overpass API
+
+### Installation
+
+Download the Overpass API: You can obtain the source code from the Overpass API GitHub repository.
+
+    git clone https://github.com/drolbr/Overpass-API
+
+### Compile the source code:
+
+    cd Overpass-API
+    ./configure CXXFLAGS="-O2" --prefix=/home/$whoami/<path to>/osrm-tutorial/overpass
+    make install
+
+### Make Directory for database
+
+    mkdir /home/$whoami/<path to>/osrm-tutorial/overpass/db
+
+### Importing Data
+
+Download a <region>.osm.bz2 file of your desired region, for example, from Geofabrik.
+
+### Initialize the database with the OSM data after installation
+
+    export db_dir = "/home/$whoami/<path to>/osrm-tutorial/overpass/db"
+    export exec_dir = "/home/$whoami/<path to>/osrm-tutorial/overpass/bin"
+
+    nohup ./bin/init_osm3s.sh <region>-latest.osm.bz2 $db_dir $exec_dir --meta &
+
+### Make inquiries into the  database
+
+    $exec_dir/osm3s_query --db-dir $db_dir
+
+### A Simple Overpass API inqury
+
+    query = f"""
+        <osm-script output="xml">
+          <union>
+            <query type="node">
+              <around radius="{search_radius}" lat="{lat}" lon="{lon}"/>
+              <has-kv k="amenity" v="{amenity}"/>
+            </query>
+            <query type="way">
+              <around radius="{search_radius}" lat="{lat}" lon="{lon}"/>
+              <has-kv k="amenity" v="{amenity}"/>
+            </query>
+          </union>
+          <print mode="body"/>
+          <recurse type="down"/>
+          <print mode="meta"/>
+        </osm-script>
+        """
+### See in-code inquiry in osrm-location-graph.ipynb:run_overpass_query() function
+
+Note: If you are interested in several maps like a country with its neighbouring countires, download PBF (for OSRM) or BZ2 (for Overpass API), and merge them using 
+
+    osmium merge <region1>.latest.osm.bz2 <region2>.latest.osm.bz2 -o <region1&2>-merged-latest.osm.bz2
   
