@@ -1,0 +1,526 @@
+amenity,latitude,longitude,name
+hospital,3.6575605,31.7147646,MOYO MISSION
+hospital,3.6488735,31.7182250,HEALTH CENTRE II
+hospital,6.0461028,31.5025207,MSF Hospital
+hospital,4.8460768,31.5790696,Nyakuron Health Center
+hospital,4.8446931,31.5752554,Al Amin Hospital
+hospital,9.2224805,29.1763538,Mayom Primary Health Care Centre
+hospital,6.5508718,30.5025521,Yirol Hospital
+hospital,10.0677134,34.5431512,Assosa Hospital
+hospital,13.8228603,33.5392581,مستشفي ود الحداد التخصصي
+hospital,14.7264294,33.3525065,مستشفي اربجي الريفي
+hospital,14.7265909,33.3526576,مستشفي اربجي الريفي
+hospital,15.5996416,32.5347739,مستشفى جعفر بن عوف للأطفال
+hospital,15.5993861,32.5292426,مركز زين الطبي
+hospital,15.5981035,32.5294337,مستشفى الأنف والأذن والحنجرة
+hospital,15.5975651,32.5295667,مستشفى الذرة
+hospital,15.6035021,32.5349506,مركز الخرطوم التخصصي للاورام
+hospital,15.5988147,32.5350627,مستشفى الشعب التعليمي
+hospital,15.6017758,32.5310686,مركز الاستشارات الجلدية
+hospital,15.5986960,32.5298443,مستشفى الفيصل التخصصي
+hospital,15.5986224,32.5294018,مستشفى المنيرة الجراحي
+hospital,15.6009015,32.5300615,مستشفى براءة للأطفال
+hospital,15.6031233,32.5301051,الصندوق القومي للتأمين الصحي الولايات بالظبط
+hospital,15.6003527,32.5275709,مجمع عيادات فتح الرحمن البشير
+hospital,15.6031131,32.5296415,الصندوق القومي للتأمين الصحي الولايات
+hospital,15.5974361,32.5301186,معمل استاك
+hospital,15.5983662,32.5293444,مستشفى الخرطوم
+hospital,15.5920684,32.5369269,مركز اسباين كير لتقويم العمود الفقري
+hospital,15.5921492,32.5418067,مستشفى الامل الوطني الخرطوم 2
+hospital,15.5948128,32.5397958,المركز الطبي الحديث
+hospital,15.6010508,32.5301939,مستشفى اهل الحضرة الخاص
+hospital,15.5995517,32.5330726,مستوصف البلسم
+hospital,15.5999737,32.5326266,مجمع سبأ الطبي
+hospital,15.5991879,32.5313208,برج الامل
+hospital,15.6019779,32.5298245,مركز النيلين للتشخيص الطبي
+hospital,15.6029802,32.5361491,مستشفى امبريال
+hospital,15.6004710,32.5332813,مستشفى الزيتونة
+hospital,15.6005355,32.5314632,مركز الحكمة الطبي
+hospital,15.6012167,32.5295160,المركز الدولي للسمع المتطور
+hospital,15.6009754,32.5303827,مركز طب الاسنان الحديث
+hospital,15.5988399,32.5297281,مستشفى الفيصل التخصصي
+hospital,15.6010664,32.5320962,مستشفى مودة الطبي
+hospital,15.5994836,32.5342100,مستشفى الشريف
+hospital,15.5985699,32.5300353,مستشفى ابن الهيثم
+hospital,15.5989531,32.5302261,مستشفى انطاليا
+hospital,15.5987428,32.5292745,مستشفى المنيرة
+hospital,15.6027118,32.5387373,مركز دكتورة سلمي لغسيل الكلي
+hospital,2.3204184,32.3856127,AMWA H/C II
+hospital,10.4438775,32.2007857,Melut County Hospital
+hospital,8.2515888,34.5929327,Gambella Primary Hospital
+hospital,11.7460498,32.8152092,Renk Military Hospital
+hospital,6.8100041,29.6796311,Lakes State Hospital
+hospital,9.3981876,28.8240973,مستشفى بيمنم
+hospital,7.7004066,27.9952314,Comboni Hospital
+hospital,8.5267229,32.0614095,Medicines Sans Frontieres Lankien
+hospital,3.4761565,31.6112915,LEGU HEALTH CENTRE 11
+hospital,3.4761023,31.6113366,BELAMELING
+hospital,3.5241315,31.8017448,ARRA
+hospital,3.0032230,32.1454490,PABO HC III
+hospital,3.2742325,33.2236733,OMIYA ANYIM HC II
+hospital,3.5562366,31.7774971,GBALALA H/C II
+hospital,3.5563452,31.7775420,GBALALA
+hospital,3.4373969,31.9132882,ELEMA
+hospital,3.2593174,32.1234532,ATIAK HC IV
+hospital,2.2432565,32.3385397,HEALTH CENTRE II
+hospital,3.5847307,31.5837878,LEFORI HEALTH CENTRE III
+hospital,3.4400125,31.1872223,Yumbe Hospital
+hospital,4.9155359,29.4625702,Maridi General Hospital
+hospital,4.8705843,31.5570362,GUDELE SURGICAL CLINIC
+hospital,5.5759961,30.1639939,Mbara PHCU
+hospital,11.7484968,32.7988758,Renk County Hospital
+hospital,3.1980968,31.2743792,SIRIPI*
+hospital,4.0915914,30.6761253,Yei Civil Hospital
+hospital,4.8121424,31.5667035,Gwadiang West Primary Health Care Unit
+hospital,7.0521382,33.0076759,MSF Lekuangole PHCC
+hospital,6.7961862,33.1347046,MSF hospital
+hospital,4.7718337,33.5909350,Kapoeta South County Hospital
+hospital,4.7664961,33.5778993,Hope for South Sudan
+hospital,8.2428216,34.5809274,Gambella Hospital
+hospital,4.8125238,31.5949532,Lologo Primary Health Care Centre
+hospital,3.3561031,31.7111807,CIFORO
+hospital,4.8871209,31.5786296,Mangateen 2 PHCU
+hospital,6.2074850,31.5543492,Bor Hospital
+hospital,6.2065890,31.5643486,Unknown
+hospital,4.8525000,31.6127778,Peace Hospital
+hospital,3.6613096,34.1906880,KALAPATA HEALTH CENTRE III
+hospital,3.6607729,34.1905230,Kalapata Health Center 3
+hospital,9.9116883,29.9817120,Kewnger Hospital
+hospital,9.2917324,29.7952889,Nile Gangah B-V Primary Health Care Centre
+hospital,9.2901456,29.7893959,Rubkona Primary Health Care Unit
+hospital,7.2767062,28.6830120,Kal Ruel Primary Health Care Unit
+hospital,7.2753863,28.6790181,Tonj County Hospital
+hospital,7.2716655,28.6796434,Don Bosco Primary Health Care Centre
+hospital,4.4055192,32.5782914,Torit Civil Hospital
+hospital,3.2817374,31.6839288,UKUSIJONI
+hospital,8.7685639,27.3992044,Aweil Civil Hospital
+hospital,7.1981738,35.4256819,ቴፒ አጠቃላይ ሆስፒታል
+hospital,2.7744531,32.2991146,Lacor Hospital
+hospital,2.7712873,32.3025045,Police Health Centre
+hospital,2.7699670,32.2927207,Gulu Prison Health Center III
+hospital,2.7634865,32.2997097,Hospital Doctors
+hospital,4.8605161,31.5681455,Chiness Hospital
+hospital,4.8602998,31.5702279,St. Kizito Primary Health Care Centre
+hospital,5.9659301,30.0410242,Domeri PHCU
+hospital,3.4018749,33.4762732,OROM HC II
+hospital,3.7354050,34.8397987,Kaapoka Health Centre
+hospital,2.7773374,32.2985660,Gulu Regional Referral Hospital
+hospital,2.7847407,32.2987319,GULU LIRA
+hospital,2.7761869,32.2910540,Hospital Doctors
+hospital,2.7804596,32.2957694,Blood Bank Gulu
+hospital,9.5232743,31.6568886,ECS Primary Health Care Centre
+hospital,9.0262562,33.4986766,Longuchuk County Hospital
+hospital,3.4138623,33.0303192,MUCHWINI HC II
+hospital,3.3401172,33.3349154,NAM OKORA HC III
+hospital,3.2957136,32.8810040,Kitgum Hospital
+hospital,4.2406436,33.0746956,St. Teresa Mission Hospital
+hospital,3.3759316,31.7828589,ADJUMANI MISSION
+hospital,2.6379313,32.0006315,GOOD SHEPHERD H/UNIT II
+hospital,2.4610842,31.4953762,Barry PHARMACY and MEDICAL CENTRE
+hospital,2.4600876,31.5034788,Pakwach Health Centre IV
+hospital,2.4617824,31.5016766,NOAH MEDICAL CLINIC
+hospital,2.4614412,31.4880182,PAKWACH MISSION HC III
+hospital,2.4613268,31.4953280,Barry PHARMACY and MEDICAL CENTRE
+hospital,2.7303401,31.3926718,WADELAI HEALTH CENTRE III
+hospital,3.3930486,31.9554264,DZAIPI
+hospital,3.5109168,33.6624434,PIRE HEALTH CENTRE II
+hospital,4.8495710,31.5911322,Juba State Hospital
+hospital,4.8650192,31.5474973,Unknown
+hospital,6.0596784,29.9608203,Mvolo PHCC
+hospital,3.3748096,31.7933754,Adjumani Hospital
+hospital,3.3768956,31.7907015,ADJUMANI HOSPITAL
+hospital,3.3808713,31.7902908,Kristo
+hospital,3.1619943,31.2726220,SIRIPI HC III
+hospital,4.9047936,31.5867831,Soneto Clinic
+hospital,3.2657431,33.0487493,KITGUM MATIDI HC II
+hospital,3.6457778,34.0785861,Kathile Health Center 3
+hospital,3.3783003,32.6525270,PALABEK-GEM HEALTH CENTRE III
+hospital,3.3715151,32.6539796,PALABEK GEM HC II
+hospital,4.8451884,31.6070325,Al Sabbah Children Hospital
+hospital,4.8483581,31.6061908,Dr. John Garang Diagnostic and Medical Center & Infectious Diseases Unit
+hospital,4.8440234,31.6025756,Freedom International Hospital
+hospital,4.8468134,31.6057312,Ussratuna Hospital
+hospital,4.8346190,31.6030545,Malakia Primary Health Care Unit
+hospital,3.2896539,32.8818999,AVSI
+hospital,4.7455268,33.6011686,Kapoeta Mission Hospital
+hospital,5.7847231,30.1042125,Yeri PHCC
+hospital,13.1864904,30.2215178,مستشفى الأبيض التعليمي
+hospital,3.1107679,30.8973839,AROI
+hospital,3.1120151,30.8971655,EBIA TRADING CENTRE
+hospital,3.1106773,30.8972941,AROI HEALTH CENTRE
+hospital,2.4802709,31.0939504,Santa Maria Medical Centre
+hospital,2.4777856,31.0866228,Nebbi Hospital
+hospital,2.4665344,31.3170199,PAILA
+hospital,2.4665257,31.3173076,PAILA HEALTH CENTRE II
+hospital,3.0629754,30.9287757,OREKU HEALTH C II
+hospital,3.2759032,30.9526146,Health Center II
+hospital,3.5055417,30.9417637,KULUBA HC II
+hospital,3.4930741,31.0776966,BAMURE HEALTH CENTRE II
+hospital,3.4712229,32.0081099,ARINYAPI
+hospital,4.8306822,31.5860152,Military Hospital
+hospital,3.0733794,31.2821132,OCEA
+hospital,3.0737411,31.2821216,OCEA H/C 11
+hospital,3.0733976,31.2822121,BELIAFE
+hospital,5.3667007,30.1594264,Gullu PH
+hospital,3.4092643,30.9597404,KOBOKO
+hospital,3.4206738,30.9552537,KOBOKO MISSION HC III
+hospital,3.4089391,30.9599120,KOBOKO HC II
+hospital,3.4208185,30.9552444,KOBKO MISSION
+hospital,3.1032875,31.0848234,OTUMBARI HEALTH CENTRE III
+hospital,3.2343011,31.2816264,HC II Imvepi
+hospital,3.2342752,31.2817529,HC II Imvepi
+hospital,3.2340010,31.2818051,HC II Imvepi
+hospital,3.2338767,31.2816224,HC II Imvepi
+hospital,3.2343278,31.2821678,HC II Imvepi
+hospital,3.3567627,31.8552176,PAKELE
+hospital,3.2408115,30.9757840,YIVU ABEA H/C II
+hospital,3.6575605,31.7147646,MOYO MISSION
+hospital,3.6488735,31.7182250,HEALTH CENTRE II
+hospital,6.0461028,31.5025207,MSF Hospital
+hospital,4.8460768,31.5790696,Nyakuron Health Center
+hospital,4.8446931,31.5752554,Al Amin Hospital
+hospital,9.2224805,29.1763538,Mayom Primary Health Care Centre
+hospital,6.5508718,30.5025521,Yirol Hospital
+hospital,10.0677134,34.5431512,Assosa Hospital
+hospital,13.8228603,33.5392581,مستشفي ود الحداد التخصصي
+hospital,14.7264294,33.3525065,مستشفي اربجي الريفي
+hospital,14.7265909,33.3526576,مستشفي اربجي الريفي
+hospital,15.5996416,32.5347739,مستشفى جعفر بن عوف للأطفال
+hospital,15.5993861,32.5292426,مركز زين الطبي
+hospital,15.5981035,32.5294337,مستشفى الأنف والأذن والحنجرة
+hospital,15.5975651,32.5295667,مستشفى الذرة
+hospital,15.6035021,32.5349506,مركز الخرطوم التخصصي للاورام
+hospital,15.5988147,32.5350627,مستشفى الشعب التعليمي
+hospital,15.6017758,32.5310686,مركز الاستشارات الجلدية
+hospital,15.5986960,32.5298443,مستشفى الفيصل التخصصي
+hospital,15.5986224,32.5294018,مستشفى المنيرة الجراحي
+hospital,15.6009015,32.5300615,مستشفى براءة للأطفال
+hospital,15.6031233,32.5301051,الصندوق القومي للتأمين الصحي الولايات بالظبط
+hospital,15.6003527,32.5275709,مجمع عيادات فتح الرحمن البشير
+hospital,15.6031131,32.5296415,الصندوق القومي للتأمين الصحي الولايات
+hospital,15.5974361,32.5301186,معمل استاك
+hospital,15.5983662,32.5293444,مستشفى الخرطوم
+hospital,15.5920684,32.5369269,مركز اسباين كير لتقويم العمود الفقري
+hospital,15.5921492,32.5418067,مستشفى الامل الوطني الخرطوم 2
+hospital,15.5948128,32.5397958,المركز الطبي الحديث
+hospital,15.6010508,32.5301939,مستشفى اهل الحضرة الخاص
+hospital,15.5995517,32.5330726,مستوصف البلسم
+hospital,15.5999737,32.5326266,مجمع سبأ الطبي
+hospital,15.5991879,32.5313208,برج الامل
+hospital,15.6019779,32.5298245,مركز النيلين للتشخيص الطبي
+hospital,15.6029802,32.5361491,مستشفى امبريال
+hospital,15.6004710,32.5332813,مستشفى الزيتونة
+hospital,15.6005355,32.5314632,مركز الحكمة الطبي
+hospital,15.6012167,32.5295160,المركز الدولي للسمع المتطور
+hospital,15.6009754,32.5303827,مركز طب الاسنان الحديث
+hospital,15.5988399,32.5297281,مستشفى الفيصل التخصصي
+hospital,15.6010664,32.5320962,مستشفى مودة الطبي
+hospital,15.5994836,32.5342100,مستشفى الشريف
+hospital,15.5985699,32.5300353,مستشفى ابن الهيثم
+hospital,15.5989531,32.5302261,مستشفى انطاليا
+hospital,15.5987428,32.5292745,مستشفى المنيرة
+hospital,15.6027118,32.5387373,مركز دكتورة سلمي لغسيل الكلي
+hospital,2.3204184,32.3856127,AMWA H/C II
+hospital,10.4438775,32.2007857,Melut County Hospital
+hospital,8.2515888,34.5929327,Gambella Primary Hospital
+hospital,11.7460498,32.8152092,Renk Military Hospital
+hospital,6.8100041,29.6796311,Lakes State Hospital
+hospital,9.3981876,28.8240973,مستشفى بيمنم
+hospital,7.7004066,27.9952314,Comboni Hospital
+hospital,8.5267229,32.0614095,Medicines Sans Frontieres Lankien
+hospital,3.4761565,31.6112915,LEGU HEALTH CENTRE 11
+hospital,3.4761023,31.6113366,BELAMELING
+hospital,3.5241315,31.8017448,ARRA
+hospital,3.0032230,32.1454490,PABO HC III
+hospital,3.2742325,33.2236733,OMIYA ANYIM HC II
+hospital,3.5562366,31.7774971,GBALALA H/C II
+hospital,3.5563452,31.7775420,GBALALA
+hospital,3.4373969,31.9132882,ELEMA
+hospital,3.2593174,32.1234532,ATIAK HC IV
+hospital,2.2432565,32.3385397,HEALTH CENTRE II
+hospital,3.5847307,31.5837878,LEFORI HEALTH CENTRE III
+hospital,3.4400125,31.1872223,Yumbe Hospital
+hospital,4.9155359,29.4625702,Maridi General Hospital
+hospital,4.8705843,31.5570362,GUDELE SURGICAL CLINIC
+hospital,5.5759961,30.1639939,Mbara PHCU
+hospital,11.7484968,32.7988758,Renk County Hospital
+hospital,3.1980968,31.2743792,SIRIPI*
+hospital,4.0915914,30.6761253,Yei Civil Hospital
+hospital,4.8121424,31.5667035,Gwadiang West Primary Health Care Unit
+hospital,7.0521382,33.0076759,MSF Lekuangole PHCC
+hospital,6.7961862,33.1347046,MSF hospital
+hospital,4.7718337,33.5909350,Kapoeta South County Hospital
+hospital,4.7664961,33.5778993,Hope for South Sudan
+hospital,8.2428216,34.5809274,Gambella Hospital
+hospital,4.8125238,31.5949532,Lologo Primary Health Care Centre
+hospital,3.3561031,31.7111807,CIFORO
+hospital,4.8871209,31.5786296,Mangateen 2 PHCU
+hospital,6.2074850,31.5543492,Bor Hospital
+hospital,6.2065890,31.5643486,Unknown
+hospital,4.8525000,31.6127778,Peace Hospital
+hospital,3.6613096,34.1906880,KALAPATA HEALTH CENTRE III
+hospital,3.6607729,34.1905230,Kalapata Health Center 3
+hospital,9.9116883,29.9817120,Kewnger Hospital
+hospital,9.2917324,29.7952889,Nile Gangah B-V Primary Health Care Centre
+hospital,9.2901456,29.7893959,Rubkona Primary Health Care Unit
+hospital,7.2767062,28.6830120,Kal Ruel Primary Health Care Unit
+hospital,7.2753863,28.6790181,Tonj County Hospital
+hospital,7.2716655,28.6796434,Don Bosco Primary Health Care Centre
+hospital,4.4055192,32.5782914,Torit Civil Hospital
+hospital,3.2817374,31.6839288,UKUSIJONI
+hospital,8.7685639,27.3992044,Aweil Civil Hospital
+hospital,7.1981738,35.4256819,ቴፒ አጠቃላይ ሆስፒታል
+hospital,2.7744531,32.2991146,Lacor Hospital
+hospital,2.7712873,32.3025045,Police Health Centre
+hospital,2.7699670,32.2927207,Gulu Prison Health Center III
+hospital,2.7634865,32.2997097,Hospital Doctors
+hospital,4.8605161,31.5681455,Chiness Hospital
+hospital,4.8602998,31.5702279,St. Kizito Primary Health Care Centre
+hospital,5.9659301,30.0410242,Domeri PHCU
+hospital,3.4018749,33.4762732,OROM HC II
+hospital,3.7354050,34.8397987,Kaapoka Health Centre
+hospital,2.7773374,32.2985660,Gulu Regional Referral Hospital
+hospital,2.7847407,32.2987319,GULU LIRA
+hospital,2.7761869,32.2910540,Hospital Doctors
+hospital,2.7804596,32.2957694,Blood Bank Gulu
+hospital,9.5232743,31.6568886,ECS Primary Health Care Centre
+hospital,9.0262562,33.4986766,Longuchuk County Hospital
+hospital,3.4138623,33.0303192,MUCHWINI HC II
+hospital,3.3401172,33.3349154,NAM OKORA HC III
+hospital,3.2957136,32.8810040,Kitgum Hospital
+hospital,4.2406436,33.0746956,St. Teresa Mission Hospital
+hospital,3.3759316,31.7828589,ADJUMANI MISSION
+hospital,2.6379313,32.0006315,GOOD SHEPHERD H/UNIT II
+hospital,2.4610842,31.4953762,Barry PHARMACY and MEDICAL CENTRE
+hospital,2.4600876,31.5034788,Pakwach Health Centre IV
+hospital,2.4617824,31.5016766,NOAH MEDICAL CLINIC
+hospital,2.4614412,31.4880182,PAKWACH MISSION HC III
+hospital,2.4613268,31.4953280,Barry PHARMACY and MEDICAL CENTRE
+hospital,2.7303401,31.3926718,WADELAI HEALTH CENTRE III
+hospital,3.3930486,31.9554264,DZAIPI
+hospital,3.5109168,33.6624434,PIRE HEALTH CENTRE II
+hospital,4.8495710,31.5911322,Juba State Hospital
+hospital,4.8650192,31.5474973,Unknown
+hospital,6.0596784,29.9608203,Mvolo PHCC
+hospital,3.3748096,31.7933754,Adjumani Hospital
+hospital,3.3768956,31.7907015,ADJUMANI HOSPITAL
+hospital,3.3808713,31.7902908,Kristo
+hospital,3.1619943,31.2726220,SIRIPI HC III
+hospital,4.9047936,31.5867831,Soneto Clinic
+hospital,3.2657431,33.0487493,KITGUM MATIDI HC II
+hospital,3.6457778,34.0785861,Kathile Health Center 3
+hospital,3.3783003,32.6525270,PALABEK-GEM HEALTH CENTRE III
+hospital,3.3715151,32.6539796,PALABEK GEM HC II
+hospital,4.8451884,31.6070325,Al Sabbah Children Hospital
+hospital,4.8483581,31.6061908,Dr. John Garang Diagnostic and Medical Center & Infectious Diseases Unit
+hospital,4.8440234,31.6025756,Freedom International Hospital
+hospital,4.8468134,31.6057312,Ussratuna Hospital
+hospital,4.8346190,31.6030545,Malakia Primary Health Care Unit
+hospital,3.2896539,32.8818999,AVSI
+hospital,4.7455268,33.6011686,Kapoeta Mission Hospital
+hospital,5.7847231,30.1042125,Yeri PHCC
+hospital,13.1864904,30.2215178,مستشفى الأبيض التعليمي
+hospital,3.1107679,30.8973839,AROI
+hospital,3.1120151,30.8971655,EBIA TRADING CENTRE
+hospital,3.1106773,30.8972941,AROI HEALTH CENTRE
+hospital,2.4802709,31.0939504,Santa Maria Medical Centre
+hospital,2.4777856,31.0866228,Nebbi Hospital
+hospital,2.4665344,31.3170199,PAILA
+hospital,2.4665257,31.3173076,PAILA HEALTH CENTRE II
+hospital,3.0629754,30.9287757,OREKU HEALTH C II
+hospital,3.2759032,30.9526146,Health Center II
+hospital,3.5055417,30.9417637,KULUBA HC II
+hospital,3.4930741,31.0776966,BAMURE HEALTH CENTRE II
+hospital,3.4712229,32.0081099,ARINYAPI
+hospital,4.8306822,31.5860152,Military Hospital
+hospital,3.0733794,31.2821132,OCEA
+hospital,3.0737411,31.2821216,OCEA H/C 11
+hospital,3.0733976,31.2822121,BELIAFE
+hospital,5.3667007,30.1594264,Gullu PH
+hospital,3.4092643,30.9597404,KOBOKO
+hospital,3.4206738,30.9552537,KOBOKO MISSION HC III
+hospital,3.4089391,30.9599120,KOBOKO HC II
+hospital,3.4208185,30.9552444,KOBKO MISSION
+hospital,3.1032875,31.0848234,OTUMBARI HEALTH CENTRE III
+hospital,3.2343011,31.2816264,HC II Imvepi
+hospital,3.2342752,31.2817529,HC II Imvepi
+hospital,3.2340010,31.2818051,HC II Imvepi
+hospital,3.2338767,31.2816224,HC II Imvepi
+hospital,3.2343278,31.2821678,HC II Imvepi
+hospital,3.3567627,31.8552176,PAKELE
+hospital,3.2408115,30.9757840,YIVU ABEA H/C II
+hospital,3.6575605,31.7147646,MOYO MISSION
+hospital,3.6488735,31.7182250,HEALTH CENTRE II
+hospital,6.0461028,31.5025207,MSF Hospital
+hospital,4.8460768,31.5790696,Nyakuron Health Center
+hospital,4.8446931,31.5752554,Al Amin Hospital
+hospital,9.2224805,29.1763538,Mayom Primary Health Care Centre
+hospital,6.5508718,30.5025521,Yirol Hospital
+hospital,10.0677134,34.5431512,Assosa Hospital
+hospital,13.8228603,33.5392581,مستشفي ود الحداد التخصصي
+hospital,14.7264294,33.3525065,مستشفي اربجي الريفي
+hospital,14.7265909,33.3526576,مستشفي اربجي الريفي
+hospital,15.5996416,32.5347739,مستشفى جعفر بن عوف للأطفال
+hospital,15.5993861,32.5292426,مركز زين الطبي
+hospital,15.5981035,32.5294337,مستشفى الأنف والأذن والحنجرة
+hospital,15.5975651,32.5295667,مستشفى الذرة
+hospital,15.6035021,32.5349506,مركز الخرطوم التخصصي للاورام
+hospital,15.5988147,32.5350627,مستشفى الشعب التعليمي
+hospital,15.6017758,32.5310686,مركز الاستشارات الجلدية
+hospital,15.5986960,32.5298443,مستشفى الفيصل التخصصي
+hospital,15.5986224,32.5294018,مستشفى المنيرة الجراحي
+hospital,15.6009015,32.5300615,مستشفى براءة للأطفال
+hospital,15.6031233,32.5301051,الصندوق القومي للتأمين الصحي الولايات بالظبط
+hospital,15.6003527,32.5275709,مجمع عيادات فتح الرحمن البشير
+hospital,15.6031131,32.5296415,الصندوق القومي للتأمين الصحي الولايات
+hospital,15.5974361,32.5301186,معمل استاك
+hospital,15.5983662,32.5293444,مستشفى الخرطوم
+hospital,15.5920684,32.5369269,مركز اسباين كير لتقويم العمود الفقري
+hospital,15.5921492,32.5418067,مستشفى الامل الوطني الخرطوم 2
+hospital,15.5948128,32.5397958,المركز الطبي الحديث
+hospital,15.6010508,32.5301939,مستشفى اهل الحضرة الخاص
+hospital,15.5995517,32.5330726,مستوصف البلسم
+hospital,15.5999737,32.5326266,مجمع سبأ الطبي
+hospital,15.5991879,32.5313208,برج الامل
+hospital,15.6019779,32.5298245,مركز النيلين للتشخيص الطبي
+hospital,15.6029802,32.5361491,مستشفى امبريال
+hospital,15.6004710,32.5332813,مستشفى الزيتونة
+hospital,15.6005355,32.5314632,مركز الحكمة الطبي
+hospital,15.6012167,32.5295160,المركز الدولي للسمع المتطور
+hospital,15.6009754,32.5303827,مركز طب الاسنان الحديث
+hospital,15.5988399,32.5297281,مستشفى الفيصل التخصصي
+hospital,15.6010664,32.5320962,مستشفى مودة الطبي
+hospital,15.5994836,32.5342100,مستشفى الشريف
+hospital,15.5985699,32.5300353,مستشفى ابن الهيثم
+hospital,15.5989531,32.5302261,مستشفى انطاليا
+hospital,15.5987428,32.5292745,مستشفى المنيرة
+hospital,15.6027118,32.5387373,مركز دكتورة سلمي لغسيل الكلي
+hospital,2.3204184,32.3856127,AMWA H/C II
+hospital,10.4438775,32.2007857,Melut County Hospital
+hospital,8.2515888,34.5929327,Gambella Primary Hospital
+hospital,11.7460498,32.8152092,Renk Military Hospital
+hospital,6.8100041,29.6796311,Lakes State Hospital
+hospital,9.3981876,28.8240973,مستشفى بيمنم
+hospital,7.7004066,27.9952314,Comboni Hospital
+hospital,8.5267229,32.0614095,Medicines Sans Frontieres Lankien
+hospital,3.4761565,31.6112915,LEGU HEALTH CENTRE 11
+hospital,3.4761023,31.6113366,BELAMELING
+hospital,3.5241315,31.8017448,ARRA
+hospital,3.0032230,32.1454490,PABO HC III
+hospital,3.2742325,33.2236733,OMIYA ANYIM HC II
+hospital,3.5562366,31.7774971,GBALALA H/C II
+hospital,3.5563452,31.7775420,GBALALA
+hospital,3.4373969,31.9132882,ELEMA
+hospital,3.2593174,32.1234532,ATIAK HC IV
+hospital,2.2432565,32.3385397,HEALTH CENTRE II
+hospital,3.5847307,31.5837878,LEFORI HEALTH CENTRE III
+hospital,3.4400125,31.1872223,Yumbe Hospital
+hospital,4.9155359,29.4625702,Maridi General Hospital
+hospital,4.8705843,31.5570362,GUDELE SURGICAL CLINIC
+hospital,5.5759961,30.1639939,Mbara PHCU
+hospital,11.7484968,32.7988758,Renk County Hospital
+hospital,3.1980968,31.2743792,SIRIPI*
+hospital,4.0915914,30.6761253,Yei Civil Hospital
+hospital,4.8121424,31.5667035,Gwadiang West Primary Health Care Unit
+hospital,7.0521382,33.0076759,MSF Lekuangole PHCC
+hospital,6.7961862,33.1347046,MSF hospital
+hospital,4.7718337,33.5909350,Kapoeta South County Hospital
+hospital,4.7664961,33.5778993,Hope for South Sudan
+hospital,8.2428216,34.5809274,Gambella Hospital
+hospital,4.8125238,31.5949532,Lologo Primary Health Care Centre
+hospital,3.3561031,31.7111807,CIFORO
+hospital,4.8871209,31.5786296,Mangateen 2 PHCU
+hospital,6.2074850,31.5543492,Bor Hospital
+hospital,6.2065890,31.5643486,Unknown
+hospital,4.8525000,31.6127778,Peace Hospital
+hospital,3.6613096,34.1906880,KALAPATA HEALTH CENTRE III
+hospital,3.6607729,34.1905230,Kalapata Health Center 3
+hospital,9.9116883,29.9817120,Kewnger Hospital
+hospital,9.2917324,29.7952889,Nile Gangah B-V Primary Health Care Centre
+hospital,9.2901456,29.7893959,Rubkona Primary Health Care Unit
+hospital,7.2767062,28.6830120,Kal Ruel Primary Health Care Unit
+hospital,7.2753863,28.6790181,Tonj County Hospital
+hospital,7.2716655,28.6796434,Don Bosco Primary Health Care Centre
+hospital,4.4055192,32.5782914,Torit Civil Hospital
+hospital,3.2817374,31.6839288,UKUSIJONI
+hospital,8.7685639,27.3992044,Aweil Civil Hospital
+hospital,7.1981738,35.4256819,ቴፒ አጠቃላይ ሆስፒታል
+hospital,2.7744531,32.2991146,Lacor Hospital
+hospital,2.7712873,32.3025045,Police Health Centre
+hospital,2.7699670,32.2927207,Gulu Prison Health Center III
+hospital,2.7634865,32.2997097,Hospital Doctors
+hospital,4.8605161,31.5681455,Chiness Hospital
+hospital,4.8602998,31.5702279,St. Kizito Primary Health Care Centre
+hospital,5.9659301,30.0410242,Domeri PHCU
+hospital,3.4018749,33.4762732,OROM HC II
+hospital,3.7354050,34.8397987,Kaapoka Health Centre
+hospital,2.7773374,32.2985660,Gulu Regional Referral Hospital
+hospital,2.7847407,32.2987319,GULU LIRA
+hospital,2.7761869,32.2910540,Hospital Doctors
+hospital,2.7804596,32.2957694,Blood Bank Gulu
+hospital,9.5232743,31.6568886,ECS Primary Health Care Centre
+hospital,9.0262562,33.4986766,Longuchuk County Hospital
+hospital,3.4138623,33.0303192,MUCHWINI HC II
+hospital,3.3401172,33.3349154,NAM OKORA HC III
+hospital,3.2957136,32.8810040,Kitgum Hospital
+hospital,4.2406436,33.0746956,St. Teresa Mission Hospital
+hospital,3.3759316,31.7828589,ADJUMANI MISSION
+hospital,2.6379313,32.0006315,GOOD SHEPHERD H/UNIT II
+hospital,2.4610842,31.4953762,Barry PHARMACY and MEDICAL CENTRE
+hospital,2.4600876,31.5034788,Pakwach Health Centre IV
+hospital,2.4617824,31.5016766,NOAH MEDICAL CLINIC
+hospital,2.4614412,31.4880182,PAKWACH MISSION HC III
+hospital,2.4613268,31.4953280,Barry PHARMACY and MEDICAL CENTRE
+hospital,2.7303401,31.3926718,WADELAI HEALTH CENTRE III
+hospital,3.3930486,31.9554264,DZAIPI
+hospital,3.5109168,33.6624434,PIRE HEALTH CENTRE II
+hospital,4.8495710,31.5911322,Juba State Hospital
+hospital,4.8650192,31.5474973,Unknown
+hospital,6.0596784,29.9608203,Mvolo PHCC
+hospital,3.3748096,31.7933754,Adjumani Hospital
+hospital,3.3768956,31.7907015,ADJUMANI HOSPITAL
+hospital,3.3808713,31.7902908,Kristo
+hospital,3.1619943,31.2726220,SIRIPI HC III
+hospital,4.9047936,31.5867831,Soneto Clinic
+hospital,3.2657431,33.0487493,KITGUM MATIDI HC II
+hospital,3.6457778,34.0785861,Kathile Health Center 3
+hospital,3.3783003,32.6525270,PALABEK-GEM HEALTH CENTRE III
+hospital,3.3715151,32.6539796,PALABEK GEM HC II
+hospital,4.8451884,31.6070325,Al Sabbah Children Hospital
+hospital,4.8483581,31.6061908,Dr. John Garang Diagnostic and Medical Center & Infectious Diseases Unit
+hospital,4.8440234,31.6025756,Freedom International Hospital
+hospital,4.8468134,31.6057312,Ussratuna Hospital
+hospital,4.8346190,31.6030545,Malakia Primary Health Care Unit
+hospital,3.2896539,32.8818999,AVSI
+hospital,4.7455268,33.6011686,Kapoeta Mission Hospital
+hospital,5.7847231,30.1042125,Yeri PHCC
+hospital,13.1864904,30.2215178,مستشفى الأبيض التعليمي
+hospital,3.1107679,30.8973839,AROI
+hospital,3.1120151,30.8971655,EBIA TRADING CENTRE
+hospital,3.1106773,30.8972941,AROI HEALTH CENTRE
+hospital,2.4802709,31.0939504,Santa Maria Medical Centre
+hospital,2.4777856,31.0866228,Nebbi Hospital
+hospital,2.4665344,31.3170199,PAILA
+hospital,2.4665257,31.3173076,PAILA HEALTH CENTRE II
+hospital,3.0629754,30.9287757,OREKU HEALTH C II
+hospital,3.2759032,30.9526146,Health Center II
+hospital,3.5055417,30.9417637,KULUBA HC II
+hospital,3.4930741,31.0776966,BAMURE HEALTH CENTRE II
+hospital,3.4712229,32.0081099,ARINYAPI
+hospital,4.8306822,31.5860152,Military Hospital
+hospital,3.0733794,31.2821132,OCEA
+hospital,3.0737411,31.2821216,OCEA H/C 11
+hospital,3.0733976,31.2822121,BELIAFE
+hospital,5.3667007,30.1594264,Gullu PH
+hospital,3.4092643,30.9597404,KOBOKO
+hospital,3.4206738,30.9552537,KOBOKO MISSION HC III
+hospital,3.4089391,30.9599120,KOBOKO HC II
+hospital,3.4208185,30.9552444,KOBKO MISSION
+hospital,3.1032875,31.0848234,OTUMBARI HEALTH CENTRE III
+hospital,3.2343011,31.2816264,HC II Imvepi
+hospital,3.2342752,31.2817529,HC II Imvepi
+hospital,3.2340010,31.2818051,HC II Imvepi
+hospital,3.2338767,31.2816224,HC II Imvepi
+hospital,3.2343278,31.2821678,HC II Imvepi
+hospital,3.3567627,31.8552176,PAKELE
+hospital,3.2408115,30.9757840,YIVU ABEA H/C II

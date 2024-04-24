@@ -1,0 +1,151 @@
+name1,name2,distance
+Ad Damazin,Renk,119.69
+Ad Damazin,Malut,228.44
+Ad Damazin,Melut,269.19
+Adjumani,Lekr,50.33
+Adjumani,Rhino,91.77
+Adjumani,Magwi,132.96
+Akobo,Nasir,1562.01
+Akobo,Pibor,123.32
+Akobo,Kule,1449.85
+Al Mayom,Mayom,47.07
+Al Mayom,Rubkona,131.58
+Al Mayom,Pariang,206.98
+Aweil,Wau,146.55
+Aweil,Al Mayom,201.12
+Aweil,Mayom,247.18
+Ayod,Duk_Fadiat,56.53
+Ayod,Fangak,224.36
+Ayod,Wunagak,1910.11
+Bor,Terakeka,267.36
+Bor,Yirol,479.08
+Bor,Juba,194.15
+Cueibet,Rumbek,56.39
+Cueibet,Mvolo,172.35
+Cueibet,Yirol,163.03
+Duk_Fadiat,Ayod,56.53
+Duk_Fadiat,Yirol,656.15
+Duk_Fadiat,Fangak,251.01
+Fangak,Malakal,2058.2
+Fangak,Wunagak,2102.9
+Fangak,Fashada,2008.94
+Fashada,Wunagak,114.75
+Fashada,Malakal,68.2
+Fashada,Melut,153.76
+Gambela,Jewi,25.58
+Gambela,Tierkidi,38.91
+Gambela,Kule,64.62
+Gulu,Kiryandongo,114.77
+Gulu,Rhino,217.66
+Gulu,Adjumani,157.28
+Jewi,Gambela,25.57
+Jewi,Tierkidi,64.27
+Jewi,Kule,82.57
+Juba,Terakeka,75.59
+Juba,Lainya,92.59
+Juba,Magwi,132.72
+Kakuma,Lolimi,172.36
+Kakuma,Mongalla,248.1
+Kakuma,Kapoeta,228.57
+Kapoeta,Lolimi,61.19
+Kapoeta,Mongalla,146.52
+Kapoeta,Torit,138.72
+Khartoum,Renk,456.49
+Khartoum,Ad Damazin,532.69
+Khartoum,West Kordofan,719.15
+Kiryandongo,Gulu,114.77
+Kiryandongo,Rhino,246.24
+Kiryandongo,Adjumani,268.55
+Kule,Tierkidi,103.42
+Kule,Gambela,64.67
+Kule,Pugnido,160.38
+Lainya,Yei,58.03
+Lainya,Juba,92.58
+Lainya,Lekr,155.47
+Lekr,Magwi,139.23
+Lekr,Adjumani,50.35
+Lekr,Rhino,141.35
+Lolimi,Kapoeta,61.19
+Lolimi,Mongalla,85.93
+Lolimi,Kakuma,172.35
+Magwi,Lekr,139.23
+Magwi,Adjumani,132.96
+Magwi,Torit,121.47
+Malakal,Fangak,2057.75
+Malakal,Wunagak,55.41
+Malakal,Fashada,68.2
+Malut,Melut,39.87
+Malut,Fashada,127.89
+Malut,Renk,150.52
+Maridi,Mundri,91.23
+Maridi,Mvolo,146.94
+Maridi,Yei,185.3
+Mayom,Al Mayom,47.07
+Mayom,Rubkona,86.45
+Mayom,Pariang,161.73
+Melut,Malut,39.84
+Melut,Fashada,153.76
+Melut,Malakal,202.81
+Mongalla,Lolimi,85.93
+Mongalla,Kapoeta,146.52
+Mongalla,Kakuma,248.1
+Mundri,Maridi,91.23
+Mundri,Mvolo,126.72
+Mundri,Yei,232.34
+Mvolo,Yirol,108.1
+Mvolo,Rumbek,122.93
+Mvolo,Mundri,126.69
+Nasir,Akobo,1561.55
+Nasir,Kule,129.04
+Nasir,Tierkidi,133.64
+Pariang,Rubkona,119.68
+Pariang,Mayom,161.73
+Pariang,Al Mayom,206.98
+Pibor,Akobo,123.32
+Pibor,Pochalla,1315.76
+Pibor,Pugnido,1307.33
+Pochalla,Pugnido,10.92
+Pochalla,Kule,168.95
+Pochalla,Pibor,1315.39
+Pugnido,Pochalla,10.92
+Pugnido,Kule,160.38
+Pugnido,Tierkidi,143.18
+Renk,Ad Damazin,119.69
+Renk,Malut,150.52
+Renk,Melut,191.27
+Rhino,Adjumani,91.77
+Rhino,Lekr,141.35
+Rhino,Gulu,217.66
+Rubkona,Mayom,86.45
+Rubkona,Pariang,119.68
+Rubkona,Al Mayom,131.58
+Rumbek,Cueibet,56.39
+Rumbek,Mvolo,122.93
+Rumbek,Yirol,109.56
+Tambura,Maridi,313.17
+Tambura,Wau,252.53
+Tambura,Cueibet,415.51
+Terakeka,Juba,75.6
+Terakeka,Bor,305.24
+Terakeka,Lainya,159.91
+Tierkidi,Kule,103.36
+Tierkidi,Gambela,38.91
+Tierkidi,Jewi,64.27
+Torit,Magwi,121.47
+Torit,Juba,133.92
+Torit,Kapoeta,138.72
+Wau,Aweil,146.54
+Wau,Cueibet,170.99
+Wau,Al Mayom,235.04
+West Kordofan,Khartoum,719.15
+West Kordofan,Pariang,901.11
+West Kordofan,Renk,957.51
+Wunagak,Fangak,2102.44
+Wunagak,Malakal,55.41
+Wunagak,Fashada,114.75
+Yei,Lainya,58.02
+Yei,Lekr,141.88
+Yei,Adjumani,162.39
+Yirol,Mvolo,108.1
+Yirol,Rumbek,109.56
+Yirol,Bor,512.55
