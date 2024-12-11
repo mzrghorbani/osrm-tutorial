@@ -55,6 +55,8 @@ bash install-osrm.sh
 
 Note: This automation script adds the OSRM executables path to your system path. Please see logs for more information.
 
+If necessary, modify the location of boost installation and gcc version in `install-osrm.sh`.
+
 ### Run OSRM engine on Africa-Ethiopia map
 
 ```bash
