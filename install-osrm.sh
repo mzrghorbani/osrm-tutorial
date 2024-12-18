@@ -52,11 +52,11 @@ if [ -z "$LUA_INCLUDE_DIR" ]; then
     exit 1
 fi
 
-# Set CXXFLAGS for Boost compatibility
-export CXXFLAGS="-DBOOST_ALLOW_DEPRECATED_HEADERS -DBOOST_BIND_GLOBAL_PLACEHOLDERS"
-
 # Boost version
 log "Using Custom Installed boost Version 1_18_0..."
+
+# Set CXXFLAGS for compatibility
+export CXXFLAGS="$CXXFLAGS -DBOOST_ALLOW_DEPRECATED_HEADERS -DBOOST_BIND_GLOBAL_PLACEHOLDERS -Wno-array-bounds -Wno-uninitialized"
 
 # Configure and build OSRM
 log "Configuring OSRM with CMake..."

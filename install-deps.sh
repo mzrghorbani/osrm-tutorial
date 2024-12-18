@@ -18,10 +18,9 @@ if [[ "$OSTYPE" == "linux-gnu"* ]]; then
     if [ -f "/etc/os-release" ]; then
         source "/etc/os-release"
         
-        # Check for Ubuntu 20.04 (focal) or 22.04 (jammy)
-        if [[ "$VERSION_CODENAME" == "focal" || "$VERSION_CODENAME" == "jammy" || "$VERSION_CODENAME" == "nobel" ]]; then
-            echo "[OSRM Dependencies Installer] Detected Ubuntu $VERSION_CODENAME."
-            
+        # Check if Ubuntu 20.04 or 22.04 is detected
+        if [[ "$VERSION_CODENAME" == "focal" || "$VERSION_CODENAME" == "jammy" || "$VERSION_CODENAME" == "noble" ]]; then
+            echo "Detected Ubuntu $VERSION_CODENAME"
             # Update package repositories
             echo "[OSRM Dependencies Installer] Updating package repositories..."
             apt update || { echo "Error: Failed to update package repositories."; exit 1; }
