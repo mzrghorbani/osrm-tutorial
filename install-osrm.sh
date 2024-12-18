@@ -2,144 +2,92 @@
 
 set -e
 
-# Check if the user is in the osrm-tutorial directory
-if [[ "$(basename "$(pwd)")" == "osrm-tutorial" ]]; then
-    echo "You are in the osrm-tutorial directory."
+# Function for logging
+log() {
+    echo "[OSRM Installer] $1"
+}
 
-    echo "Cloning osrm-backend from GitHub..."
-    if [ ! -d "osrm-backend" ]; then
-        git clone https://github.com/Project-OSRM/osrm-backend.git
-    else
-        echo "Directory 'osrm-backend' already exists. Skipping the clone."
+# Check if required dependencies are installed
+dependencies=(git cmake make lua5.2)
+for dep in "${dependencies[@]}"; do
+    if ! command -v $dep &> /dev/null; then
+        echo "Error: $dep is not installed. Please install it before running this script."
+        exit 1
     fi
+done
 
-    echo "Making osrm-install directory for OSRM installation..."
-    mkdir -p osrm-install/ && \
-
-    echo "Changing directory to osrm-backend..."
-    cd osrm-backend/ && \
-
-    echo "Making build directory for building OSRM cmake files..."
-    mkdir -p build/ && \
-
-    echo "Changing directory to build for OSRM installation..."
-    cd build/ && \
-
-    echo "Setting CXXFLAGS variables to ensure the compiler applies settings for Boost..."
-    export CXXFLAGS="-DBOOST_ALLOW_DEPRECATED_HEADERS -DBOOST_BIND_GLOBAL_PLACEHOLDERS" && \
-
-    echo "Checking CMake version..."
-    REQUIRED_CMAKE_VERSION="3.18"
-    INSTALLED_CMAKE_VERSION=$(cmake --version | awk '/version/ {print $NF}')
-
-    if dpkg --compare-versions "$INSTALLED_CMAKE_VERSION" "lt" "$REQUIRED_CMAKE_VERSION"; then
-        echo "Error: CMake version $REQUIRED_CMAKE_VERSION or higher is required."
-        echo "Making cmake-3.27 directory for CMake installation..."
-        mkdir -p cmake-3.27/ && \
-
-        echo "Changing directory to cmake-3.27"
-        cd cmake-3.27/ && \
-
-        echo "Downloading cmake-3.27.0-rc2-linux-x86_64.tar.gz ..."
-        wget https://github.com/Kitware/CMake/releases/download/v3.27.0-rc2/cmake-3.27.0-rc2-linux-x86_64.tar.gz && \
-
-        echo "Extracting cmake-3.27.0-rc2-linux-x86_64.tar.gz ..."
-        tar -zxvf cmake-3.27.0-rc2-linux-x86_64.tar.gz && \
-
-        echo "Cleaning up the redundant file..."
-        rm cmake-3.27.0-rc2-linux-x86_64.tar.gz && \
-
-        cmake_3_27="$(realpath ./cmake-3.27.0-rc2-linux-x86_64/bin/cmake)" && \
-
-        echo "Installing OSRM with CMake with prefix osrm-install/ and Lua include directory..."
-        ${cmake_3_27} -DCMAKE_INSTALL_PREFIX="$(realpath ../../../osrm-install)" -DLUA_INCLUDE_DIR="/usr/include/lua5.2" .. && \
-
-        echo "Returning to osrm build directory..."
-        cd .. && \
-
-        echo "Continuing installation with making installation files..."
-        make -j 4 && \
-
-        echo "Finally, installing OSRM in osrm-install directory..."
-        make install
-    else
-        echo "Installing OSRM with CMake with prefix osrm-install/ and Lua include directory..."
-        cmake -DCMAKE_INSTALL_PREFIX="$(realpath ../../osrm-install)" -DLUA_INCLUDE_DIR="/usr/include/lua5.2" .. && \
-
-        echo "Continuing installation with making installation files..."
-        make -j 4 && \
-
-        echo "Finally, installing OSRM in osrm-install directory..."
-        make install
-    fi
-
-    # Define the OSRM executables path
-    OSRM_EXEC_PATH=$(realpath ../osrm-install/bin)
-
-    # Check if the OSRM executables path is already in the system path
-    if ! wslpath -a "$PATH" | tr ':' '\n' | grep -Fxq "$(wslpath -a "$OSRM_EXEC_PATH")" >/dev/null; then
-        # Add the OSRM executables path to the system path
-        echo "Adding OSRM executables path to system path..."
-        export PATH=${PATH}:$OSRM_EXEC_PATH
-    fi
-
-    echo "Returning to osrm-backend directory..."
-    cd .. && \
-
-    echo "Defining the region and filename for downloading map pbf..."
-    # download location: http://download.geofabrik.de/europe/great-britain-latest.osm.pbf
-    REGION="europe"
-    FILENAME="great-britain-latest"
-
-    # download location: http://download.geofabrik.de/africa/ethiopia-latest.osm.pbf
-    # REGION="africa"
-    # FILENAME="ethiopia-latest"
-
-    # Construct the download link
-    DOWNLOAD_LINK="http://download.geofabrik.de/${REGION}/${FILENAME}.osm.pbf"
-
-    echo "Download link: $DOWNLOAD_LINK"
-
-    echo "Downloading the map data for $FILENAME..."
-
-    if [ ! -f "${FILENAME}.osm.pbf" ]; then
-        if wget -c "$DOWNLOAD_LINK"; then
-            echo "Download completed successfully."
-        else
-            echo "Error: Failed to download the map data. The download link is not valid or the file is not available."
-            exit 1
-        fi
-    else
-        echo "File '${FILENAME}.osm.pbf' already exists. Skipping the download."
-    fi
-
-    echo "Extracting map data. Extraction may take a long time depending on the map size."
-    osrm-extract "${FILENAME}.osm.pbf" --threads=10 && \
-
-    echo "Partitioning map data. Partitioning may take a long time depending on the map size."
-    osrm-partition "${FILENAME}" && \
-
-    echo "Customising map data. Customising may take a long time depending on the map size."
-    osrm-customize "${FILENAME}" && \
-
-    echo "Contracting map network. Contracting may take a long time depending on the map size."
-    osrm-contract "${FILENAME}" && \
-
-    echo "Starting the OSRM routing engine in a screen session..."
-    screen -dmS osrm osrm-routed --algorithm=MLD "${FILENAME}"
-
-    echo "Checking if osrm-routed process is running in the background..."
-    if pgrep -x "osrm-routed" >/dev/null; then
-        echo "Congratulations, OSRM routing engine is running."
-        echo "Please return to the Jupyter Notebook to run the first python cell."
-        echo "If you no longer need the engine running, use the 'screen -S osrm -X quit' to terminate the session."
-    else
-        echo "Failed to start OSRM routing engine."
-        echo "Please run the failed commands, manually."
-    fi
-
-else
-    echo "Please change directory to the osrm-tutorial directory before running this script."
+# Check if in osrm-tutorial directory
+if [[ "$(basename "$(pwd)")" != "osrm-tutorial" ]]; then
+    log "Error: Please run this script from the 'osrm-tutorial' directory."
+    exit 1
 fi
 
-echo "OSRM installation completed. Please refer to instructions in README.md."
+log "You are in the osrm-tutorial directory."
+
+# Clone osrm-backend
+log "Cloning osrm-backend from GitHub..."
+if [ ! -d "osrm-backend" ]; then
+    git clone https://github.com/Project-OSRM/osrm-backend.git
+else
+    log "Directory 'osrm-backend' already exists. Skipping the clone."
+fi
+
+# Create osrm-install directory
+log "Creating osrm-install directory for OSRM installation..."
+mkdir -p osrm-install/
+
+# Change to osrm-backend directory
+cd osrm-backend/
+
+# Remove and recreate build directory
+log "Setting up build directory..."
+rm -rf build/
+mkdir -p build/
+cd build/
+
+# Detect Lua include directory
+LUA_INCLUDE_DIR=$(pkg-config --cflags-only-I lua5.2 | sed 's/-I//')
+if [ -z "$LUA_INCLUDE_DIR" ]; then
+    log "Error: Lua 5.2 development files not found. Please install them."
+    exit 1
+fi
+
+# Set CXXFLAGS for Boost compatibility
+export CXXFLAGS="-DBOOST_ALLOW_DEPRECATED_HEADERS -DBOOST_BIND_GLOBAL_PLACEHOLDERS"
+
+# Boost version
+log "Using Custom Installed boost Version 1_18_0..."
+
+# Configure and build OSRM
+log "Configuring OSRM with CMake..."
+cmake \
+    -DCMAKE_INSTALL_PREFIX="$(realpath ../../osrm-install)" \
+    -DLUA_INCLUDE_DIR="$LUA_INCLUDE_DIR" \
+    -DBOOST_ROOT="/home/mghorbani/boost_1_81_0" \
+    -DCMAKE_CXX_FLAGS="$CXXFLAGS -Wno-array-bounds -Wno-uninitialized" \
+    ..
+
+log "Building OSRM..."
+make -j $(nproc)
+
+log "Installing OSRM..."
+make install
+
+log "OSRM installation completed."
+
+# Add OSRM executables to PATH (for WSL)
+OSRM_EXEC_PATH=$(realpath ../../osrm-install/bin)
+
+# Check if the path is already in PATH
+if ! echo "$PATH" | tr ':' '\n' | grep -Fxq "$OSRM_EXEC_PATH"; then
+    echo "[INFO] OSRM executables path is not in the system PATH."
+    echo "To use OSRM commands, add the following to your PATH:"
+    echo ""
+    echo "    export PATH=\$PATH:$OSRM_EXEC_PATH"
+    echo ""
+    echo "You can add this line to your shell configuration file (e.g., ~/.bashrc or ~/.zshrc) for persistence."
+else
+    echo "[INFO] OSRM executables path is already in PATH."
+fi
+
+log "Please refer to instructions in README.md."
